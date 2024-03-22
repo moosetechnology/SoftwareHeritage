@@ -1,6 +1,7 @@
 Class {
 	#name : 'SHProjectExplorerPresenter',
-	#superclass : 'SpPresenter',
+	#superclass : 'MiAbstractBrowser',
+	#classTraits : '{} + TraitedClass',
 	#instVars : [
 		'typeList',
 		'selectedType',
@@ -16,10 +17,41 @@ SHProjectExplorerPresenter class >> example [
 	self new open
 ]
 
+{ #category : 'world menu' }
+SHProjectExplorerPresenter class >> menuCommandOn: aBuilder [
+
+	<worldMenu>
+	^ self buildMenuItemIn: aBuilder
+]
+
+{ #category : 'world menu' }
+SHProjectExplorerPresenter class >> menuIconName [
+
+	^ #mooseNavigation
+]
+
+{ #category : 'world menu' }
+SHProjectExplorerPresenter class >> menuItem [
+
+	^ #SoftwareHeritageImporter
+]
+
+{ #category : 'specs' }
+SHProjectExplorerPresenter class >> title [
+
+	^ 'Software Heritage Importer'
+]
+
 { #category : 'accessing' }
 SHProjectExplorerPresenter >> allTypes [
 
 	^ SHProjectExplorerOptionPresenter allTypes
+]
+
+{ #category : 'testing' }
+SHProjectExplorerPresenter >> canFollowEntity: anObject [
+
+	^ false
 ]
 
 { #category : 'layout' }
@@ -30,6 +62,12 @@ SHProjectExplorerPresenter >> defaultLayout [
 		  add: typeList;
 		  add: contentLayout;
 		  yourself
+]
+
+{ #category : 'actions' }
+SHProjectExplorerPresenter >> followEntity: anEntity [
+
+	
 ]
 
 { #category : 'initialization' }
