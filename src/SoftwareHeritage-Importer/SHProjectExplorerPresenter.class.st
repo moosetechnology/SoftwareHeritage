@@ -111,5 +111,5 @@ SHProjectExplorerPresenter >> selectionChanged: aType [
 { #category : 'event handling' }
 SHProjectExplorerPresenter >> updateWindowTitle [
 
-	self window title: selectedType titleForWindow
+	self window title: 'Software Heritage Importer: ' , selectedType titleForWindow
 ]
