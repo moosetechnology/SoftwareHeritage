@@ -1,5 +1,7 @@
 # SoftwareHeritage
-I am a project holding an integration of Software Heritage with Moose tools
+I am a project holding an integration of Software Heritage with Moose tools.
+
+For now I mostly includes an interface to search Software Heritage projects, select a java project, select some releases, tags or branches and import models from them.
 
 ## Installation
 
