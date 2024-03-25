@@ -3,9 +3,9 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'SoftwareHeritage',
       #directory : 'src'
-    },
-    #testing : {
-      #failOnZeroTests : false
     }
-  ]
+  ],
+  #testing : {
+    #failOnZeroTests : false
+  }
 }
