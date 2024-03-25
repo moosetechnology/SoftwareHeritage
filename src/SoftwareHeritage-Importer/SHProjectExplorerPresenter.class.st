@@ -1,7 +1,7 @@
 Class {
 	#name : 'SHProjectExplorerPresenter',
 	#superclass : 'MiAbstractBrowser',
-	#classTraits : '{} + TraitedClass',
+	#classTraits : '{}',
 	#instVars : [
 		'typeList',
 		'selectedType',
