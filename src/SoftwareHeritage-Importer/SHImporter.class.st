@@ -51,7 +51,7 @@ SHImporter >> downloadAndImport: aListOfTargets [
 
 	self download: aListOfTargets.
 
-	FamixJavaFoldersImporter importFolders: downloadedFolders
+	FamixJavaFoldersImporter importAndInstallFolders: downloadedFolders
 ]
 
 { #category : 'initialization' }
