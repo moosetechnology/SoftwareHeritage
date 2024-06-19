@@ -1,3 +1,6 @@
+"
+I am an UI to look for a SoftwareHeritage project by providing its origin directly. For example, the github link of the corresponding project if the project comes from Github originally.
+"
 Class {
 	#name : 'SHProjectExplorerByOriginOptionPresenter',
 	#superclass : 'SHProjectExplorerOptionPresenter',

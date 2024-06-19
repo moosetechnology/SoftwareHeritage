@@ -1,3 +1,6 @@
+"
+I am an interface that takes a SoftwareHeritage project as entry and display the possible targets to download and import (it can be branch heads, PR, releases, tags...)
+"
 Class {
 	#name : 'SHProjectExplorerTargetSelectionPresenter',
 	#superclass : 'SpPresenter',

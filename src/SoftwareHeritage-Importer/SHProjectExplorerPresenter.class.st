@@ -1,3 +1,12 @@
+"
+I am the entry point of the interface to import projects from SoftwareHeritage.
+
+I can provide multiple ways to query SoftwareHeritage projects and I'll display a `SHProjectExplorerOptionPresenter` by option. 
+
+Once a user has targets to import selected, he will be able to launch a download of those sources and an import of the projects. 
+
+I work only for Java for now
+"
 Class {
 	#name : 'SHProjectExplorerPresenter',
 	#superclass : 'MiAbstractBrowser',

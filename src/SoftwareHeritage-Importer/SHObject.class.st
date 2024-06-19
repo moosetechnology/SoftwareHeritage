@@ -1,3 +1,8 @@
+"
+I am an abstract class to represent the objects of SoftwareHeritage web API.
+
+In case we reach the API limit rate, it is possible to authentificate ourselves with a bearer token of Software Heritage using #bearerAuthentificationToken: on my class side
+"
 Class {
 	#name : 'SHObject',
 	#superclass : 'Object',

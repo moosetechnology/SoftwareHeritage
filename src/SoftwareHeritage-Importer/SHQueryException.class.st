@@ -1,3 +1,6 @@
+"
+I am an exception that can be raised by SoftwareHeritage queries
+"
 Class {
 	#name : 'SHQueryException',
 	#superclass : 'Exception',

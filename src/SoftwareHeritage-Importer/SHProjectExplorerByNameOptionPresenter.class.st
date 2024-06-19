@@ -1,3 +1,6 @@
+"
+I am an interface to allow one to search software heritage database using a pattern and to display the matching projects from SoftwareHeritage API.
+"
 Class {
 	#name : 'SHProjectExplorerByNameOptionPresenter',
 	#superclass : 'SHProjectExplorerOptionPresenter',

@@ -1,3 +1,8 @@
+"
+I am an abstract UI class to represent exploration options for SoftwareHeritage.
+
+My subclasses will provide interfaces to query and select a project of SoftwareHeritage in different ways.
+"
 Class {
 	#name : 'SHProjectExplorerOptionPresenter',
 	#superclass : 'SpPresenter',

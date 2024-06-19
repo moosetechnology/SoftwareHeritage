@@ -1,3 +1,10 @@
+"
+I am a class used to manage the importation of SoftwareHeritage projects.
+
+I take a list of SoftwareHeritage targets and I create a model from them and import them in MooseIDE.
+
+Note: For now this only works for java projects. Work is needed to support more languages.
+"
 Class {
 	#name : 'SHImporter',
 	#superclass : 'Object',
